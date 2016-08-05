@@ -1,0 +1,118 @@
+/* Inserta tu codigo aqui */
+/* este es el menu */
+li{
+	list-style: none;
+	text-decoration: none;
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #350CE5;
+}
+/*esta parte es para el formulario*/
+form{
+	width: 500px;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 5%;
+}
+.h2{
+	color: #011547;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	font-size: 17px;
+	border: 1px solid #C3C3C3;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton{
+	background-color: #011547;
+	color: #FFFFFF;
+	padding: 20px;
+}
+#boton:hover{
+	color: #110CF3;
+}
+/*hasta aqui termina el estilo del formulario*/
+/*imagen de zapatillas*/
+.zapatillas{
+	background-image: url("../img/shoes_1.jpg");
+	height: 480px;
+	width: 690px;
+	margin-left: -8%;
+}
+/*terminan zapatillas*/
+footer{
+	background-color:#011547;
+	color: #FFFFFF;
+	padding: 2%; 
+}
+/*oferta de clases*/
+.clases{
+	background-color: #E0DEDE;
+	padding: 2% 2% 2% 8%;
+}
+/*Primer row de imagenes y transparencias*/
+#prim{
+	background-image: url("../img/dance_12.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	height: 405px;
+}
+#seg{
+	background-image: url("../img/breakdance.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	height: 405px;
+}
+#ter{
+	background-image: url("../img/lirical-jazz.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	height: 405px;	
+}
+/*Segundo row de imagenes y transparencias */
+#cuart{
+	background-image: url("../img/arabe.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	height: 405px;
+}
+#quin{
+	background-image: url("../img/little.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	height: 405px;
+}
+#sext{
+	background-image: url("../img/yoga.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	height: 405px;	
+}
+
+.transp{
+	background-color: rgba(0,0,0,0.5);
+	height: 100px;
+	width: 300px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 2%;
+	margin-top: 40%;
+	padding-top: 3%;
+}

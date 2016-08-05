@@ -1,0 +1,115 @@
+/* Inserta tu codigo aqui */
+/* este es el menu */
+li{
+	list-style: none;
+	text-decoration: none;
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #350CE5;
+}
+/*esta parte es para el formulario*/
+form{
+	width: 500px;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 5%;
+}
+.h2{
+	color: #011547;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	font-size: 17px;
+	border: 1px solid #C3C3C3;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton{
+	background-color: #011547;
+	color: #FFFFFF;
+	padding: 20px;
+}
+#boton:hover{
+	color: #110CF3;
+}
+/*hasta aqui termina el estilo del formulario*/
+/*imagen de zapatillas*/
+.zapatillas{
+	background-image: url("../img/shoes_1.jpg");
+	height: 480px;
+	width: 690px;
+	margin-left: -8%;
+}
+/*terminan zapatillas*/
+footer{
+	background-color:#011547;
+	color: #FFFFFF;
+	padding: 2%; 
+}
+/*sobre nosotros*/
+.nos{
+	background-image: url("../img/dance_7.jpg");
+	background-repeat: no-repeat;
+	height: 480px;
+	width: 100%;
+}
+.transp{
+	background-color: rgba(0,0,0,0.5);
+	height: 140px;
+	width: 490px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: .5%;
+	margin-top: 15%;
+	margin-left: 35%;
+	padding-top: 1%;
+}
+/*aqui empiezan los pilares*/
+hr{
+	width: 300px;
+	margin-left: 10%;
+}
+.pilares{
+	background-image: url("../img/cubes.png");
+	height: 360px;
+	width: 100%;
+	padding: 5%;
+}
+/*instructores*/
+.profes{
+	width: 250px;
+	height: 220px;
+}
+.pd{
+	padding: 5%;
+}
+.otra{
+	background-image: url("../img/cubes.png");
+	height: 300px;
+	width: 100%;
+	padding: 8% 26%;
+	font-size: 50px;
+}
+.profes:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}

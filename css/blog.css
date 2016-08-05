@@ -1,0 +1,91 @@
+/* este es el menu */
+li{
+	list-style: none;
+	text-decoration: none;
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #350CE5;
+}
+/*esta parte es para el formulario*/
+form{
+	width: 500px;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 5%;
+}
+.h2{
+	color: #011547;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	font-size: 17px;
+	border: 1px solid #C3C3C3;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton{
+	background-color: #011547;
+	color: #FFFFFF;
+	padding: 20px;
+}
+#boton:hover{
+	color: #110CF3;
+}
+/*hasta aqui termina el estilo del formulario*/
+/*imagen de zapatillas*/
+.zapatillas{
+	background-image: url("../img/shoes_1.jpg");
+	height: 480px;
+	width: 690px;
+	margin-left: -8%;
+}
+/*terminan zapatillas*/
+footer{
+	background-color:#011547;
+	color: #FFFFFF;
+	padding: 2%; 
+}
+/*backgroun gris general*/
+.bkg{
+	background-color: #E6E6E6;
+	padding-top: 4%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+/*tamaño de las imagenes*/
+.cuadro{
+	width: 300px;
+	height: 250px;
+}
+.bg{
+	background-color: #D6D5D5;
+	padding: 5.5% 4.9% 1.1% 3.9%;
+}
+/*boton*/
+button{
+	border-style: none;
+	background-color: #020969;
+	color: #FFFFFF;
+	padding: 1.3% 10%;
+	border-radius: 5%;
+}
+.pdb{
+	padding-bottom: 10%;
+}
